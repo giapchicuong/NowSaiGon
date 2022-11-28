@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chính</title>
+    <link rel="stylesheet" href="../css/home.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link
+    rel="stylesheet"
+    href="../fonts/fontawesome-free-6.1.1-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="../javascript/jquery-3.6.1.min.js"></script>
+    <script src="../javascript/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="app">
+       <header>
+        <div class="header-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3 header-text">
+                Hotline:<a href="tel:19001009"> 19001009</a>
+              </div>
+              <div class="col-sm-3"></div>
+              <div class="col-sm-3"></div>
+              <div class="col-sm-3">
+                <a class="header-text"href="./sign_up.html"> Đăng ký </a> &nbsp; &nbsp;
+                <a class="header-text"data-toggle="modal" data-target="#SignIn"  href="">Đăng nhập</a> &nbsp; &nbsp;
+                <a class="header-text"href="./Contact.html">Liên hệ</a> &nbsp; &nbsp;
+                  <!-- The modal Sign in-->
+                  <div
+                  class="modal fade"
+                  id="SignIn"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="modalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="modalLabel">Đăng nhập tài khoản</h4>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body modal-signin">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Mật khẩu"> 
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-primary"
+                          data-dismiss="modal"
+                        >
+                          Đăng nhập
+                        </button>
+                      </div>
+                      <span style="margin: auto;">Nếu bạn chưa có tài khoản, vui lòng đăng ký <a href="./sign_up.html">tại đây</a></span>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-foot">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4">
+                  <a href="./Home.html" style="position: absolute;top: 0;width: 100%;text-decoration: none;color: white;">.</a>
+                  <img src="../images/logo.webp" alt="" />
+              </div>
+              <div class="col-sm-4"></div>
+            </div>
+          </div>
+        </div>
+       
+      </header>
+      <div id="slide">
+        <div class="directional">
+            <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+        <div class="slide-item">
+            <div class="slide-image">
+                <img src="../images/home-shoe-1.png" alt="">
+            </div>
+            <div class="slide-content">
+                <div class="slide-content__left">
+                    <h1>Nike Red Shoes</h1>
+                        <div class="des">Greatness is not in one special place. <br/> And it is not in one special person. Greatness is wherever somebody is trying to find it.</div>
+                        <button><a href="./Product.html">&nbsp VÀO TRANG CHỦ</a>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                </div>
+                <div class="slide-content__right">
+                    <h2>Thông tin sản phẩm</h2>
+                        <ul>
+                            <li>
+                                <p>Năm sản xuất</p>
+                                <p>2022</p>
+                            </li>
+                            <li>
+                                <p>Thương hiệu</p>
+                                <p>Nike</p>
+                            </li>
+                            <li>
+                                <p>Bán chạy trong năm</p>
+                                <p>2022</p>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="slide-item">
+            <div class="slide-image">
+                <img src="../images/home-shoe-2.png" alt="">
+            </div>
+            <div class="slide-content">
+                <div class="slide-content__left">
+                    <h1>Nike Blue Shoes</h1>
+                    <div class="des">Greatness is not in one special place. <br/> And it is not in one special person. Greatness is wherever somebody is trying to find it</div>
+                        <button><a href="./Product.html">&nbsp VÀO TRANG CHỦ</a>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                </div>
+                <div class="slide-content__right">
+                    <h2>Thông tin</h2>
+                        <ul>
+                            <li>
+                                <p>Năm sản xuất</p>
+                                <p>2022</p>
+                            </li>
+                            <li>
+                                <p>Thương hiệu</p>
+                                <p>Nike</p>
+                            </li>
+                            <li>
+                                <p>Bán chạy trong năm</p>
+                                <p>2022</p>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="slide-item">
+            <div class="slide-image">
+                <img src="../images/home-shoe-3.png" alt="">
+            </div>
+            <div class="slide-content">
+                <div class="slide-content__left">
+                    <h1>Nike Metcon Shoes</h1>
+                    <div class="des">Greatness is not in one special place. <br/> And it is not in one special person. Greatness is wherever somebody is trying to find it</div>
+                        <button><a href="./Product.html">&nbsp VÀO TRANG CHỦ</a>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                            <i class="fa-solid fa-angle-right"></i>
+                        </button>
+                </div>
+                <div class="slide-content__right">
+                    <h2>Thông tin</h2>
+                        <ul>
+                            <li>
+                                <p>Năm sản xuất</p>
+                                <p>2022</p>
+                            </li>
+                            <li>
+                                <p>Thương hiệu</p>
+                                <p>Nike</p>
+                            </li>
+                            <li>
+                                <p>Bán chạy trong năm</p>
+                                <p>2022</p>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+        
+    </div>
+    <script src="../javascript/Home.js"></script>
+  </body>
+</html>

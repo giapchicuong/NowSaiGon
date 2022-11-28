@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toàn bộ sản phẩm</title>
+    <link rel="stylesheet" href="../css/Product.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/ProductItem.css">
+    <link rel="stylesheet" href="../css/message.css">
+    <link
+      rel="stylesheet"
+      href="../fonts/fontawesome-free-6.1.1-web/css/all.min.css"
+    />
+    <script src="../javascript/Message.js"></script>
+    <script src="../javascript/jquery-3.6.1.min.js"></script>
+    <script src="../javascript/bootstrap.min.js"></script>
+
+  </head>
+  <body>
+    <div class="app">
+      <div id="toast"></div>
+      <header>
+        <div class="header-top">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3 header-text">
+                Hotline:<a href="tel:19001009"> 19001009</a>
+              </div>
+              <div class="col-sm-3"></div>
+              <div class="col-sm-3"></div>
+              <div class="col-sm-3">
+                <a class="header-text"href="./sign_up.html"> Đăng ký </a> &nbsp; &nbsp;
+                <a class="header-text" data-toggle="modal" data-target="#SignIn"  href="">Đăng nhập</a> &nbsp; &nbsp;
+                <a class="header-text"href="./Contact.html">Liên hệ</a> &nbsp; &nbsp;
+                  <!-- The modal Sign in-->
+                  <div
+                  class="modal fade"
+                  id="SignIn"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="modalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h4 class="modal-title" id="modalLabel">Đăng nhập tài khoản</h4>
+                        <button
+                          type="button"
+                          class="close"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body modal-signin">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Mật khẩu"> 
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-primary"
+                          data-dismiss="modal"
+                        >
+                          Đăng nhập
+                        </button>
+                      </div>
+                      <span style="margin: auto;">Nếu bạn chưa có tài khoản, vui lòng đăng ký <a href="./sign_up.html">tại đây</a></span>
+                    </div>
+                  </div>
+                </div>
+               
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header-foot">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4"></div>
+              <div class="col-sm-4">
+                <a href="./Home.html" style="position: absolute;top: 0;width: 100%;text-decoration: none;color: white;">.</a>
+                <img src="../images/logo.webp" alt="" />
+              </div>
+              <div class="col-sm-4"></div>
+            </div>
+          </div>
+        </div>
+        <div class="header-nav">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <ul class="header-nav-ul">
+                  <li><a href="../html/Product.html">Trang chủ</a></li>
+                  <li>
+                    <a href=""
+                      >Giày <i class="fa-sharp fa-solid fa-caret-down"></i
+                    ></a>
+                    <div class="header-subnav">
+                      <ul>
+                        <li><a class="header-subnav-title" href="#">Tất cả sản phẩm</a></li>
+                        <li><a class="header-subnav-title" href="#">Nike</a></li>
+                        <li><a class="header-subnav-title" href="#">Adidas</a></li>
+                        <li><a class="header-subnav-title" href="#">Jordan</a></li>
+                        <li><a class="header-subnav-title" href="#">Yeezy</a></li>
+                        <li><a class="header-subnav-title" href="#">Dây giày</a></li>
+                        <li><a class="header-subnav-title" href="#">Spa Giày</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="./Contact.html">Liên hệ</a></li>
+                  <li style="background-color: #ed1c24">
+                    <a href="">Clearance sale</a>
+                  </li>
+                </ul>
+                <div class="header-search-cart">
+                  <div class="header-search-input">
+                    <input
+                      type="text"
+                      placeholder="Tìm kiếm sản phẩm"
+                      class="search"
+                    />
+                  </div>
+                  <div class="header-search">
+                    <i class="fa-solid fa-magnifying-glass"></i> &nbsp; &nbsp;
+                  </div>
+                  <div class="header-cart">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <a href="./ClearanceSale.html">.</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section>
+        <div class="nav-container">
+            <div class="container">
+              <div class="row">
+                <ul>
+                  <li><a href="./Product.html"> Trang chủ /</a></li>
+                  <li><a href="" class="nav-title" style="color: #0089ff;">Tất cả sản phẩm</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        <div class="product">
+          <div class="container">
+            <div class="row">
+                <div class="left col-sm-3">
+                    <h4 class="categories-title">Danh mục sản phẩm</h4> <br>
+                    <div class="categories"></div>
+                </div>
+                <div class="right col-sm-9">
+                    <div class="row">
+                        <h5 class="category-title col-sm-9">Tất cả sản phẩm</h5>
+                        <h6 class="sort col-sm-3">
+                            <label for="sort">Sắp xếp:</label>
+                            <select class="Sort-value"name="sort" id="sort">
+                                <option value="0" id="value0">Mặc định</option>
+                                <option value="1">A --> Z</option>
+                                <option value="2">Z --> A</option>
+                                <option value="3">Giá tăng dần</option>
+                                <option value="4">Giá giảm dần</option>
+                            </select>
+                        </h5>
+                    </div>
+                    <div class="row productList"></div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row"><div class="col-sm-12" style="color: transparent;">.</div></div>
+        </div>
+        <ul id="pagination"></ul>
+      </section>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="footer-follow">
+                <h5>FOLLOW US</h5>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="footer-guide">
+                <h5>HƯỚNG DẪN</h5>
+                <a href="./Website_terms.html">Điều khoản</a> <br /><br />
+                    <a href="./Guide.html">Hướng dẫn mua hàng</a> <br /><br />
+                    <a href="./Return_policy.html">Chính sách đổi trả hàng</a> <br /><br />
+                    <a href="./Privacy_policy.html">Bảo mật thông tin KH</a> <br /><br />
+                    <a href="./Payment_policy.html">Chính sách thanh toán</a> <br /><br />
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="footer-contact">
+                <h5>CONTACT US</h5>
+                <p>Store I: 445 Sư Vạn Hạnh, P.12, Q.10.</p>
+                <p>Store II: 48 Trần Quang Diệu, P.14, Q.3, TP.HCM</p>
+                <p>Store III: 463 Quang Trung, P.10, Q.Gò Vấp, TP.HCM</p>
+                <p>
+                  Store IV: G-Town 1, 350 Điện Biên Phủ, P.17, Q.Bình Thạnh,
+                  TP.HCM
+                </p>
+                <p>
+                  Store V: G-Town 2, 136 Nguyễn Hồng Đào, P.14, Q.Tân Bình,
+                  TP.HCM
+                </p>
+              </div>
+            </div>
+            <div
+              style="text-align: center; color: #fff; padding: 30px"
+              class="col-sm-12"
+            >
+              <h5>Products owned by Phan Hai Trieu and Giap Chi Cuong</h5>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div
+    class="modal fade"
+    id="ProductFast"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="modalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+            
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body modal-signin">
+          <div class="product">
+            <div class="container">
+              <div class="row productItem">
+                <div class="product-item-detail col-sm-12">
+                  <div class="row">
+                    <div class="product-detail-item-left col-sm-5">
+                      <div class="image-container">
+                        <div class="big-image">
+                          <img
+                            src="../images/f-img-1.1.png"
+                            class="big-image-1"
+                            alt=""
+                            style="width: 370px;
+                            height: 400px;
+                            object-fit: contain;
+                            transform: rotate(-35deg);
+                            border: none;
+                            background-color: transparent;"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product-detail-item-right col-sm-7">
+                      <div class="product-detail-info">
+                        <div class="product-detail-name">
+                          <h1 class="product-detail-name-title">Nike Air Zoom Pegasus 36</h1>
+                        </div>
+                        <div class="product-detail-brand">
+                          Thương hiệu: NEEDS OF WISDOM® | Còn hàng
+                        </div>
+                        <!-- <div class="product-detail-status"></div> -->
+                        <div class="product-detail-price">30000.000</div>
+                        <div class="product-detail-size">
+                          <p>Kích thước</p>
+                          <div class="product-detail-size-All">
+                            <input
+                              id="size-40"
+                              type="radio"
+                              name="option-0"
+                              id=""
+                            />&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="size-40">40</label>
+                          </div>
+                          <div class="product-detail-size-All">
+                            <input
+                              id="size-41"
+                              type="radio"
+                              name="option-0"
+                              id=""
+                            />&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span for="size-41">41</span>
+                          </div>
+                          <div class="product-detail-size-All">
+                            <input
+                              id="size-42"
+                              type="radio"
+                              name="option-0"
+                              id=""
+                            />&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="size-42">42</label>
+                          </div>
+                          <div class="product-detail-size-All">
+                            <input
+                              id="size-43"
+                              type="radio"
+                              name="option-0"
+                              id=""
+                              checked
+                            />&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="size-43">43</label>
+                          </div>
+                          <div class="product-detail-size-All">
+                            <input
+                              id="size-44"
+                              type="radio"
+                              name="option-0"
+                              id=""
+                            />&nbsp;&nbsp;&nbsp;&nbsp;
+                            <label for="size-44">44</label>
+                          </div>
+                        </div>
+                        <div class="product-detail-amount">
+                          <label for="amount">Số lượng</label>
+                          <input type="number" value="1" min="1" name="" oninput="this.value = Math.abs(this.value)"/>
+                        </div>
+                        <div class="product-detail-order">
+                          <button type="button" value="">
+                            <span data-dismiss="modal" onclick="showSuccessToast();">Thêm vào giỏ hàng</span>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
+<script src="../javascript/AllItem.js"></script>

@@ -1,0 +1,226 @@
+.nav-container {
+  background: #f5f5f5;
+  margin-bottom: 40px;
+  height: 54px;
+}
+.nav-container ul {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.nav-container li {
+  list-style: none;
+  margin-left: 5px;
+}
+.nav-container li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #333;
+  font-family: "Roboto", sans-serif;
+  padding: 15px 0;
+  line-height: 54px;
+  text-transform: uppercase;
+}
+.nav-container li:nth-child(3) a {
+  color: #0089ff;
+}
+.product-item-detail {
+}
+.product-detail-item-left {
+}
+.product-detail-item-left .big-image img {
+  width: 470px;
+  height: 450px;
+  object-fit: contain;
+  background-color: #f2f2f2;
+  border: 0.3rem solid rgba(0, 0, 0, 0.1);
+}
+.small-image {
+  display: flex;
+}
+.featured-image-1 {
+  width: 109px;
+  height: 109px;
+  object-fit: contain;
+  margin: 5px;
+  background-color: #f2f2f2;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+.featured-image-1:hover {
+  background-color: #ed1c24;
+}
+.product-detail-item-right {
+}
+.product-detail-info {
+  /* text-align: center; */
+  position: absolute;
+  left: 80px;
+  font-size: 14px;
+}
+
+.product-detail-name {
+}
+.product-detail-name h1 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+.product-detail-brand {
+  margin: 20px 0;
+}
+
+.product-detail-status {
+}
+
+.product-detail-price {
+  font-family: "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 20px 0;
+  color: #363636;
+}
+.product-detail-size {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.product-detail-size-All input {
+  font-size: 50px;
+}
+.product-detail-size p {
+  min-width: 100px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #707070;
+  font-family: "Roboto", sans-serif;
+}
+
+.product-detail-size-40 {
+}
+.product-detail-amount {
+  margin-bottom: 12px;
+}
+.product-detail-amount label {
+  padding-right: 10px;
+}
+.product-detail-amount input {
+  width: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+.product-detail-order {
+}
+.product-detail-order button {
+  background: #ed1c24;
+  font-size: 12px;
+  color: #ffff;
+  font-family: "Roboto", sans-serif;
+  border: solid 1px transparent;
+  text-transform: uppercase;
+  padding: 0 20px;
+  line-height: 45px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+.product-detail-order button:hover {
+  background-color: #0089ff;
+}
+
+.product-item-des {
+  padding: 20px;
+}
+
+.product-item-des-title span {
+  background: #ed1c24;
+  font-size: 14px;
+  color: #ffff;
+  font-family: "Roboto", sans-serif;
+  border: solid 1px transparent;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  line-height: 45px;
+  font-weight: 700;
+}
+
+.product-item-des-content {
+  width: 100%;
+  height: 100%;
+  padding: 20px 10px;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+.product-item-des-content-made {
+  margin-bottom: 15px;
+}
+
+.product-item-des-content-systemstore {
+  margin-bottom: 15px;
+}
+
+.product-item-des-content-systemstore-title {
+  margin-bottom: 15px;
+}
+
+.product-item-des-content-branch {
+  margin-bottom: 15px;
+}
+.products-similar {
+  position: relative;
+}
+.products-similar-title span {
+  font-size: 25px;
+  color: #333;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  border: solid 1px transparent;
+  margin-left: 10px;
+}
+.products-similar-content {
+  padding: 30px 0;
+}
+.products-similar-item {
+}
+.products-similar-item img:hover {
+  background-color: #0089ff;
+}
+.products-similar-item img {
+  object-fit: contain;
+  border: 0.1px solid transparent;
+  width: 270px;
+  height: 310px;
+  transition: 0.5s;
+  background-color: #f2f2f2;
+}
+.product-info {
+  padding-left: 15px;
+}
+.directional {
+  position: absolute;
+  bottom: 250px;
+  width: 100%;
+  text-align: center;
+  z-index: 3;
+}
+.directional #prev {
+  position: absolute;
+  left: -40px;
+  border-radius: 30px;
+  transition: 0.5s;
+  color: black;
+}
+.directional #next {
+  position: absolute;
+  right: -55px;
+  border-radius: 30px;
+  transition: 0.5s;
+  color: black;
+}
+.directional button {
+  width: 50px;
+  height: 50px;
+  color: black;
+  background-color: transparent;
+  transition: 0.5s;
+  border: none;
+}
+
+
